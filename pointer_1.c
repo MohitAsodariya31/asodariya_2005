@@ -4,7 +4,7 @@ int main()
     int a = 10, *p, **p2;
     p = &a;
     p2 = &p;
-    printf("\n value of a %d", a);
+    printf("\n\n value of a %d", a);
     printf("\n addressof a %u", &a);
 
     printf("\n\n value of a using p %d", *p);
