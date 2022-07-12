@@ -19,13 +19,13 @@ class loc
             cout<<"\n longitude :"<<longitude<<"";
             cout<<" latitude :"<<latitude<<"";
         }
-        loc operator +(loc);
+        friend loc operator +(loc,loc);
 };
-loc loc::operator+(loc op2)
+loc operator+(loc op1,loc op2)
 {
     loc temp;
-    temp.longitude=longitude+op2.longitude;
-    temp.latitude=latitude+op2.latitude;
+    temp.longitude=op1.longitude+op2.longitude;
+    temp.latitude=op1.latitude+op2.latitude;
     return temp;
 }
 int main()
