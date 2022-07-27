@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char str1[100],str2[100];
+	int n;
+	printf("enter string :");
+	gets(str1);
+	
+	n=strlen(str1);
+	printf("\n strlen : %d",n); 
+	
+	
+	printf("\n strrev : %s",strrev(str1));
+	
+	strupr(str1);
+	printf("\n string upper case %s",str1);
+	
+	strlwr(str1);
+	printf("\n string lower case %s",str1);
+	
+	printf("enter string2 :");
+	gets(str2);
+	strcpy(str2,str1);
+	printf("\n str2 : %s",str2);
+	
+	
+	printf("\n string compare case sensitive : %d",strcmp(str1,str2));
+	printf("\n string compare insensitive : %d",strcmpi(str1,str2));
+	
+	strcat(str2,str1);
+	printf("\n string caoncatanation : %s",str2);
+}

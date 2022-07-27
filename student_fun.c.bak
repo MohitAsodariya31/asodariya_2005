@@ -1,0 +1,51 @@
+#include<stdio.h>
+float per,x,y,z,xyz;
+int main()
+{
+	void process();
+	printf("\n eng :");
+	scanf("%f",&x);
+	printf("\n guj :");
+	scanf("%f",&y);
+	printf("\n sci :");
+	scanf("%f",&z);
+	process();
+}
+void process()
+{
+	void print();
+	xyz=x+y+z;
+	per=xyz/3;
+	
+	printf();
+}
+void print()
+{
+	printf("\n total marks are : %.2f",xyz);
+	printf("\n persantage are  : %.2f",per);
+	if(per>40)
+	{
+		printf("fail");
+	}
+	if(per>48&&per<50)
+	{
+		printf("grade E");
+	}
+		else if(per>50&&per<60)
+	{
+		printf("grade D");
+	}
+		else if(per>60&&per<70)
+	{
+		printf("grade C");
+	}
+		else if(per>70&&per<80)
+	{
+		printf("grade B");
+	}
+	else
+	{
+		printf("grade A");
+	}
+}
+	

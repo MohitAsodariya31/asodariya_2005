@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML</title>
+	</head>
+	<body>
+	<q>this is quoted text</q>
+	
+	<b>this is bold text</b><br>
+	<strong>this is strong text</strong><br>
+	<i>this is italic text</i><br>
+	<em>this is emphesize text</em><br>
+	<mark>this is markebel text</mark><br>
+	<small>this is small text</small><br>
+	<del>this is deleted text</del><br>
+	<ins>this is added text</ins><br>
+	</body>
+</html>
